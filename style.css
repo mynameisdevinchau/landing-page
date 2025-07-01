@@ -5,26 +5,39 @@
     height:500px;
     padding:16px;
     gap:20px;
-    /*flex-direction:column;*/
+    flex-direction:column;
     
 }
 
 .flex-container div{
-    background: aqua;
-    border: 4px solid brown;
-    height:100px;
-    width:10px;
     
+    background: aqua;
+
 }                 
-.flex-container .one{
-    flex-grow: 2;
+.flex-container .one{  
+    flex:2
+    
 }
 .flex-container .two{
+    font-style:roboto;
+    background:#1F2937;
     flex-grow: 2;
 }
 .flex-container .three{
+    font-weight: 900;
+    font:36px;
+    background:white;
+
     flex-grow: 2;
 }
 .flex-container .four{
     flex-grow: 2;
+    background:#1F2937;
+    font:36px;
+
+}
+
+.navigator{
+    display:flex;
+    flex-direction: row;
 }
