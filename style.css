@@ -1,0 +1,30 @@
+.flex-container{
+    display:flex;
+    background:plum;
+    border:4px solid indigo;
+    height:500px;
+    padding:16px;
+    gap:20px;
+    /*flex-direction:column;*/
+    
+}
+
+.flex-container div{
+    background: aqua;
+    border: 4px solid brown;
+    height:100px;
+    width:10px;
+    
+}                 
+.flex-container .one{
+    flex-grow: 2;
+}
+.flex-container .two{
+    flex-grow: 2;
+}
+.flex-container .three{
+    flex-grow: 2;
+}
+.flex-container .four{
+    flex-grow: 2;
+}
