@@ -7,34 +7,84 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<nav class="navigator">
-    <ul>
-        <li><a href="the link">header link one</a></li>
-        <li><a href="link">header link two</a></li>
-        <li><a href="link again">header link three</a></li>
-
-    </ul>
-</nav>
 <body>
     <div class = "flex-container">
-        <div class="one"></div>
+        <div class="one">
+            <!--for the header-->
+            <nav class="navigator">
+                <div class="top-header">
+                    <p>Header Logo</p>
+                </div>
+                <ul>
+                   
+                    <li><a href="the link">header link one</a></li>
+                    <li><a href="link">header link two</a></li>
+                    <li><a href="link again">header link three</a></li>
+            
+                </ul>
+            </nav>
+
+            <!--for the summary and image on the website-->
+            <div class="flex-container-one">
+                <!--this is for the quote-->
+                <div class="item-one">
+                    <h1>This website is <br>awesome</h1>
+                    <p>This website has some subtext that goes header<br>
+                        under the main title. It's a smaller font and
+                        the color is lower <br>contrast
+                    </p>
+                    <button class="button-top">Sign up</button>
+                </div>
+                <!--image-->
+                <img id="emoji" src="https://www.paintgarden.com/cdn/shop/products/434E52.png?v=1658181178" height="200px" width="500px"/>
+            </div>
+        </div>
         <div class="two">
+            <h1 class="random-info-header">Some random information</h1>
             <div class="flex-container-two">
-                <h1 class="random-info-header">Some random information</h1>
-                <div class="two-one"></div>
-                <div class="two-two"></div>
-                <div class="two-three"></div>
-                <div class="two-four"></div>
+                <div class="item-two">
+                    <div class="box"></div>
+                    <p class="description">this is some subtext<br> under an illustration<br> or image</p>
+                </div>
+                <div class="item-two">
+                    <div class="box"></div>
+                    <p class="description">this is some subtext<br> under an illustration<br> or image</p>
+                </div>
+                <div class="item-two">
+                    <div class="box"></div>
+                    <p class="description">this is some subtext<br> under an illustration<br> or image</p>
+                </div>
+                <div class="item-two">
+                    <div class="box"></div>
+                    <p class="description">this is some subtext<br> under an illustration<br> or image</p>
+                </div>
             </div>
         </div>
         <div class="three">
+            <div class="quotebox">
             <p class="quote">
-                This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space or maybe people will actually 
-                read it. Who knows? All I know is that it looks nice.
+                This is an inspiring quote, or a testimonial from a<br> customer. Maybe it's just filling up space or maybe<br> people will actually 
+                read it. Who knows? All I know<br> is that it looks nice.
             </p>
+            <p class="author">—Thor, God of Thunder</p>
+            </div>
+        </div>
+        <div class="four">
+            <div class="four-box">
+                <div class="cta">
+                    <h1>Call to action! It's time!</h1>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                
+                    <button class="button-bottom">Sign up</button>
+                
+            </div>
+        </div>
+        </div>
 
-        </div>
-        <div class="four"></div>
-        </div>
+    <footer>
+        <p>Copyright &copy; The Odin Project 2021</p>
+    </footer>
 </body>
+
 </html>

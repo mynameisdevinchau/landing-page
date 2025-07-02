@@ -1,49 +1,246 @@
+
+
 .flex-container{
     display:flex;
-    background:plum;
-    border:4px solid indigo;
-    height:500px;
     padding:16px;
     gap:20px;
     flex-direction:column;
     
 }
 
-.flex-container div{
-    
-    background: aqua;
-
-}                 
 .flex-container .one{  
-    flex:2
-    
-}
-.flex-container .two{
-    font-style:roboto;
+    font-family:'Roboto', sans-serif;
     background:#1F2937;
-    flex-grow: 2;
-}
-.flex-container .three{
-    font-weight: 900;
-    font:36px;
-    background:white;
+    flex: 1;
+    
 
-    flex-grow: 2;
+}
+
+.flex-container-two{
+    display:flex;
+    background:white;
+    gap:60px;
+    align-items:center;
+    justify-content: center;
+    flex: 1;   
+    padding-bottom:150px; 
+}
+
+.flex-container .three{
+    background:#E5E7EB;
+    flex: 1;
+    padding:50px;
+
 }
 .flex-container .four{
-    flex-grow: 2;
-    background:#1F2937;
+    background:white;
     font:36px;
+    flex: 1;
 
 }
 
-.navigator{
+.flex-container .one .navigator{
     display:flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    padding:16px;
+}
+.flex-container .one .navigator ul{
+    text-align: right;
+    gap:24px;
+    display:flex;
+    flex-direction:row;
+    list-style:none;
+    padding:0;
+}
+.flex-container .one .navigator li{
+    font-weight:bold;
+}
+.flex-container .one a{
+    color:grey;
+    font-size:18px;
+    text-decoration:none;
+}
+
+.flex-container .one .top-header{
+    display:flex;
+    font-family:'Roboto', sans-serif;
+    background:#1F2937;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+
+}
+
+.flex-container .one .navigator .top-header p{
+    font-size:24px;
+
+    color:#F9FAF8;
+    margin:0;
+    font-weight:bold;
+
+}
+
+
+.flex-container .flex-container-one{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937;
+    gap:50px;
+    padding-bottom: 100px;
+
+
+}
+.flex-container .flex-container-one .item-one{
+    background: #1F2937;
+}
+
+.flex-container .flex-container-one .item-one h1{
+    font:48px;
+    color:#F9FAF8;
+    font-weight: 900;
+}
+.flex-container .flex-container-one .item-one p{
+    font:18px;
+    color:#E5E7EB;
 }
 
 .random-info-header{
     display: flex;
+    align-items: center;
     justify-content: center;
     font-weight:bold;
+    font-size:36px;
+    font-weight:900;
+    background:white;
+    padding-bottom:50px;
+}
+
+
+
+
+.flex-container-two .item-two .box{
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    background: white;
+    border-radius:10px;
+    
+}
+
+
+.flex-container-two .two .item-two {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:0px;
+}
+
+.flex-container-two .item-two .description{
+    display:flex;
+    font-size:18px;
+    color:gray;
+    text-align: center;
+}
+
+.flex-container .three .quotebox{
+    background: #E5E7EB;
+    max-width:750px;
+    flex-direction:column;
+    padding-left:300px;
+
+}
+.flex-container .three .quote{
+    display:flex;
+    text-align:left;
+    font-size:36px;
+    font-weight: light;
+    font-style:italic;
+    color: #1F2937;
+
+}
+.flex-container .three .author{
+    display:flex;
+    font-size:18px;
+    align-items: flex-end;
+    justify-self: right;
+    text-align:right;
+    font-weight:bold;
+
+    
+}
+
+.flex-container .four .four-box{
+    background-color: #3882F6;
+    border-radius:15px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    padding:50px;
+    margin:80px;
+}
+.flex-container .four .cta{
+    background:#3882F6;
+    display:flex;
+    gap:0px;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    text-align:left;
+
+
+}
+
+.flex-container .four .cta h1{
+    font-weight:bold;
+    font-size:20px;
+    color:white;
+    padding-bottom:0px;
+    width:500px;
+
+}
+.flex-container .four .cta p{
+    display:flex;
+    margin-top:1px;
+    padding-top:0px;
+    font-size:15px;
+    color:grey;
+    width:500px;
+
+
+}
+
+.button-bottom{
+    border-color:white;
+    border-width:2px;
+    border-radius:5px;
+    background:#3882F6;
+    color:white;
+    width:100;
+    font-size:20px;
+    
+}
+/*button*/
+.button-top{
+    border-width:2px;
+    border-radius:5px;
+    background:#3882F6;
+    color:white;
+    width:100;
+    font-size:20px;
+
+}
+/*footer*/
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background:#1F2937
+}
+footer p{
+    color:white;
+
+
 }
